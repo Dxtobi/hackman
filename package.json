@@ -9,6 +9,8 @@
     "emailjs-com": "^3.2.0",
     "firebase": "^9.6.1",
     "firebase-tools": "^9.21.0",
+    "jspdf": "^2.5.0",
+    "jspdf-autotable": "^3.5.23",
     "object-to-formdata": "^4.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
