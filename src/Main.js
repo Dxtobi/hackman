@@ -23,7 +23,7 @@ const Main = () => {
     <div className='home_landing'>
       {contMenu && (
         <div className='menu_'>
-          <a className='menu_link' href="https://t.me/+JPdries7mxIwODdk" rel='noreferrer' target="_blank">Telegram</a>
+          <a className='menu_link' href="https://t.me/martin_jeff" rel='noreferrer' target="_blank">Telegram</a>
           <a className='menu_link' href="https://www.instagram.com/ivan.prohacks" rel='noreferrer' target="_blank">Instagram</a>
           <button className='menu_link' onClick={()=>setcontMenu(!contMenu)}>Cancel</button>
         </div>
