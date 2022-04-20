@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import Table from "./Logins";
 import Main from "./Main";
 
@@ -8,7 +8,8 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="/boluwatife" element={<Table />} />
+        <Route path="/adm__pass" element={<Table />} />
+        <Route path=" " element={<Navigate to="/" />} />
       </Routes>
     </div>
   );
